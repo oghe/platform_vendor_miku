@@ -73,7 +73,7 @@ soong_config_module_type {
 soong_config_module_type {
     name: "surfaceflinger_qcom_extensions",
     module_type: "cc_defaults",
-    config_namespace: "weebGlobalVars",
+    config_namespace: "mikuGlobalVars",
     value_variables: ["qcom_soong_namespace"],
     properties: [
         "cppflags",
