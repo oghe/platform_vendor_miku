@@ -23,3 +23,7 @@ $(call inherit-product, vendor/miku/config/overlay.mk)
 
 # Inherit from our kernel/header generator
 $(call inherit-product, vendor/miku/config/BoardConfigMiku.mk)
+
+# Hide nav Overlays
+PRODUCT_PACKAGES += \
+    NavigationBarModeGesturalOverlayFS
